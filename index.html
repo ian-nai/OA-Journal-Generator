@@ -54,9 +54,9 @@ getJSON(url3).then(function(data) {
     var answer1 = Math.floor(Math.random() * (data.total)) + 1  
     var url4 = "https://doaj.org/api/v1/search/journals/" + z + "?page=" + answer1 + "&pageSize=1";
     var a = document.createElement('a');
-    var linkText = document.createTextNode("View the JSON in your browser!");
+    var linkText = document.createTextNode("View the JSON in a new window!");
     a.appendChild(linkText);
-    a.title = "View the JSON in your browser!";
+    a.title = "View the JSON in a new window!";
     a.href = url4;
     document.getElementById("results").innerHTML = "";
     document.getElementById("results").appendChild(a);
