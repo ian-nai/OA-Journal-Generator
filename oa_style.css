@@ -1,0 +1,81 @@
+h1 {
+    color: rgba(88, 24, 69,0.6); 
+    font-family: helvetica;
+    font-size: 4em;
+    text-align: center;
+    line-height: 90%;
+    text-shadow: 0 0.037em rgba(144, 12, 63, 0.65);
+}
+
+
+
+h2 {
+    color: black;
+    font-family: arial;
+    font-size: 1.15em;
+    text-align: center
+}
+
+h3 {
+    color: black;
+    font-family: arial;
+    font-size: 1em;
+    text-align: center;
+}
+
+h4 {
+    color: blue;
+    font-family: arial;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.button {
+    background-color: #ccd3e6;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 2px 6px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 2px 1px;
+    cursor: pointer;
+    margin: 0 auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background: rgba(255, 87, 51, 0.7);
+}
+
+
+
+ input {
+    width: 80px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=int]:focus {
+    width: 8%;
+}
+
+#results {
+text-align: center; 
+}
+
+#iframe {
+    width:100%;
+    float:left;
+    text-align:center;
+}
+.iframe {
+    width: 350px;
+    height: 45px;
+    margin: 0 auto;
+}
