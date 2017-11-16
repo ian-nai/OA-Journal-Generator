@@ -76,7 +76,7 @@ getJSON(url3).then(function(data) {
         var title2 = myObj3[7];
         var title3 = myObj5[9];
         document.getElementById("demo").innerHTML = title2;
-        document.getElementById("demo2").innerHTML = title3;
+        document.getElementById("demo2").innerHTML = ('<a href="' + title3 + '">' + title3 + '</a>');
     }
 };
 xmlhttp.open("GET", url4, true);
